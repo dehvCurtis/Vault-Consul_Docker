@@ -7,6 +7,7 @@ docker-compose up -d vault
 echo "exporting VAULT_ADDR"
 echo "echoing VAULT_ADDR:"
 echo $VAULT_ADDR
+echo Setting Vault env var
 export VAULT_ADDR='http://127.0.0.1:8200'
 echo "complete"
 echo "creating keys in /tmp/docker-vault-keys.txt"
