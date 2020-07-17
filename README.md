@@ -1,6 +1,16 @@
 # Prometheus-Vault-Docker
 Vault/Consul Docker for learning and testing
 
+## Quick Build
+
+[Fork Git Repo](https://github.com/dehvCurtis/Vault-Consul_Docker) if needed
+
+`cd <path>/Vault-Consul_Docker`
+
+`chmod +x docker-up.sh`
+
+`./docker-up.sh`
+
 # Overview
 
 This repository will build a Vault server using Consul backend.
