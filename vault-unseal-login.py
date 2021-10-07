@@ -1,6 +1,5 @@
 # python3
-# by: dehvon curtis
-# dcurtis@adobe.com
+# dehvonc@gmail.com
 
 import os
 

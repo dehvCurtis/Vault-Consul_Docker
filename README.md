@@ -1,6 +1,9 @@
 # Prometheus-Vault-Docker
 Vault/Consul Docker for learning and testing
 
+## maintainer:
+dehvonc@gmail.com
+
 ## Quick Build
 
 [Fork Git Repo](https://github.com/dehvCurtis/Vault-Consul_Docker) if needed
