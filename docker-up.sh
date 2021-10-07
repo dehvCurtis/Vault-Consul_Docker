@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# INCOMPLETE
-
 docker-compose up -d consul
 docker-compose up -d vault
 echo "exporting VAULT_ADDR"
