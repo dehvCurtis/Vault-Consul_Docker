@@ -1,7 +1,7 @@
 version: '2'
 services:
   consul:
-    image: "consul:1.10.3"
+    image: "consul:latest"
     hostname: "consul"
     command: "agent -dev -client 0.0.0.0"
     ports:

@@ -1,4 +1,4 @@
-FROM vault:1.8.4
+FROM vault:latest
 
 COPY config.hcl /etc/vault/config.hcl
 
