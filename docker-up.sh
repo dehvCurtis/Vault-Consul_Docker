@@ -1,12 +1,13 @@
 #!/bin/bash
 
+# incomplete
+
 docker-compose up -d consul
 docker-compose up -d vault
 echo "exporting VAULT_ADDR"
-echo "echoing VAULT_ADDR:"
-echo $VAULT_ADDR
-echo Setting Vault env var
-export VAULT_ADDR='http://127.0.0.1:8200'
+echo "Setting Vault Environment Variable..."
+export VAULT_ADDR=http://127.0.0.1:820
+echo "echoing VAULT_ADDR: $VAULT_ADDR"
 echo "complete"
 echo "creating keys in /tmp/docker-vault-keys.txt"
 vault operator init -key-shares=3 -key-threshold=2 > /tmp/docker-vault-keys.txt
